@@ -44,7 +44,7 @@ spring:
       # 大小限制
       max-file-size: 10MB
 server:
-  address: 0.0.0.0
+  address: localhost
   port: 8101
   servlet:
     context-path: /api
